@@ -1,15 +1,23 @@
 # gh-deployment-workflow
-A simple GitHub Actions workflow 
 
-Features:
+A simple GitHub Actions workflow for CI/CD.
 
-CI/CD with GitHub Actions
+## 🚀 Features
 
-Builds Java Gradle project
+- CI/CD with GitHub Actions  
+- Builds Java Gradle project  
+- Creates and pushes Docker image to DockerHub  
+- *(Optional)* Deploys `index.html` to GitHub Pages  
 
-Creates and pushes Docker image to DockerHub
+## 🛠️ Tech Stack
 
-(Optional) Deploys index.html to GitHub Pages
+- GitHub Actions  
+- Java  
+- Gradle  
+- Docker  
+- DockerHub  
 
-Tech: GitHub Actions, Java, Gradle, Docker, DockerHub
+## 📦 Build the Project
 
+```bash
+./gradlew build
